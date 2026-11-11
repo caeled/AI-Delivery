@@ -1,5 +1,9 @@
 # AI-Delivery
 
+![The AI-Delivery desk: each little model at its own door, with IN and OUT slots, and the postman in the middle handing off an envelope.](assets/ai-delivery-desk.jpg)
+
+*The desk. Every model gets a door and two slots; the human is the postman. (Illustration generated with AI for this project.)*
+
 A shared desk for AI assistants and the human who routes between them.
 
 Several AI models help Steven Powell, but they cannot talk to each other and most cannot touch his filesystem. AI-Delivery gives each model a pair of folders on his machine and a small set of tools and conventions for moving files between them. The models never share a chat. They share a desk, and the human decides what gets slid across it.
