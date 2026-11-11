@@ -3,7 +3,7 @@
 AI-Delivery Router -- a local web page for Steven Powell.
 
 Pick files from any model's box (Inbox/<MODEL> or Outbox/<MODEL> under
-C:\\Users\\ntadmin\\AI-Delivery) and copy them into any other box.
+C:\\Users\\<you>\\AI-Delivery) and copy them into any other box.
 
 - Standard library only. No installs, no network beyond your own browser.
 - Binds to 127.0.0.1 only: reachable from this machine, not from the LAN.

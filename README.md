@@ -11,7 +11,7 @@ This is the Council idea in miniature: models with different strengths, one huma
 ## The layout
 
 ```
-<BASE>\                          e.g. C:\Users\ntadmin\AI-Delivery
+<BASE>\                          e.g. C:\Users\<you>\AI-Delivery
   Inbox\<MODEL>\                 files the model created FOR Steven
   Outbox\<MODEL>\                files Steven wants that model to see
   Scripts\                       sync script, config, repo-url.txt
@@ -52,6 +52,10 @@ Models on the original desk: `Muse`, `Grok-Bot`, `ChatGPT`, and `Caeled` (Steven
 - No tool in this package deletes files. Cleanup is a human decision made in Explorer.
 - The sync holds no credentials; it uses the machine's existing git authentication.
 - Nothing here phones home. The only network traffic is the git sync to Steven's own staging repo and the browser on the same machine.
+
+## License
+
+MIT. See `LICENSE`. Contributions welcome; see `CONTRIBUTING.md`.
 
 ## The idea, in one line
 

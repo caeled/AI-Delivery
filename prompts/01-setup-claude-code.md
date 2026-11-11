@@ -2,7 +2,7 @@
 
 Fill in the four variables, then paste everything below the line into Muse.
 
-- `{{BASE}}` — the AI-Delivery base folder, e.g. `C:\Users\ntadmin\AI-Delivery`
+- `{{BASE}}` — the AI-Delivery base folder, e.g. `C:\Users\<you>\AI-Delivery`
 - `{{REPO_URL}}` — the staging repo's git address. Steven will PASTE this value; if he has not, ask him to paste it. Never type it from memory or from reading it elsewhere.
 - `{{BRANCH}}` — staging repo branch, usually `main`
 - `{{MODEL}}` — this bridge's model folder name, e.g. `Muse`

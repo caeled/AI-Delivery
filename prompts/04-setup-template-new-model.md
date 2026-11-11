@@ -5,7 +5,7 @@ Copy this file, replace every `{{VARIABLE}}`, adjust the role paragraph and the 
 Variables:
 
 - `{{MODEL}}` — the model's folder name, e.g. `Gemini`
-- `{{BASE}}` — the AI-Delivery base folder, e.g. `C:\Users\ntadmin\AI-Delivery`
+- `{{BASE}}` — the AI-Delivery base folder, e.g. `C:\Users\<you>\AI-Delivery`
 - `{{ROLE}}` — one sentence: what this model is for on Steven's desk
 - `{{ACCESS}}` — one of: `local hands` (runs on the machine), `git bridge` (pushes to the staging repo like Muse does), or `chat only` (Steven carries the files)
 

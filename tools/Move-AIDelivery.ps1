@@ -5,8 +5,8 @@
 # Every copy is written to the destination box's transfer-log.txt.
 #
 # Boxes are discovered automatically: any folder under
-#   C:\Users\ntadmin\AI-Delivery\Inbox\<MODEL>
-#   C:\Users\ntadmin\AI-Delivery\Outbox\<MODEL>
+#   C:\Users\<you>\AI-Delivery\Inbox\<MODEL>
+#   C:\Users\<you>\AI-Delivery\Outbox\<MODEL>
 # counts as a box. New models appear on their own when their folders exist.
 #
 # Usage:  powershell -ExecutionPolicy Bypass -File Move-AIDelivery.ps1
@@ -14,7 +14,7 @@
 #         non-interactively against a simulated tree.
 
 param(
-    [string]$BasePath = "C:\Users\ntadmin\AI-Delivery",
+    [string]$BasePath = (Join-Path $env:USERPROFILE "AI-Delivery"),
     [string]$TestAnswers = ""
 )
 

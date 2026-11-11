@@ -2,7 +2,7 @@
 
 Fill in the variables, then paste everything below the line into Grok.
 
-- `{{BASE}}` — the AI-Delivery base folder, e.g. `C:\Users\ntadmin\AI-Delivery`
+- `{{BASE}}` — the AI-Delivery base folder, e.g. `C:\Users\<you>\AI-Delivery`
 - `{{MODEL}}` — Grok's folder name, e.g. `Grok-Bot`
 
 ---
